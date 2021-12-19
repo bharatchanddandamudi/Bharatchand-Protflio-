@@ -23,7 +23,7 @@
 ## About This Project
 <br />
 
-  ![mq3](https://user-images.githubusercontent.com/17007063/146685170-04b2c321-2065-444e-a4dc-f818b54770d4.jpg | width=1000 height=500)
+  ![mq3](https://user-images.githubusercontent.com/17007063/146685170-04b2c321-2065-444e-a4dc-f818b54770d4.jpg)
  
  
  <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
