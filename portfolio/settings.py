@@ -12,7 +12,9 @@ https://docs.djangoproject.com/en/2.2/ref/settings/
 
 import os
 import sys
-
+import django_heroku
+import dj_database_url
+from pathlib import Path
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -45,7 +47,7 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
-     'whitenoise.middleware.WhiteNoiseMiddleware',
+#      'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -78,22 +80,23 @@ WSGI_APPLICATION = 'portfolio.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.postgresql',
-#         'NAME': 'dce5mf1rimfmak',
-#         'USER':'vtfipcbaeoodju',
-#         'PASSWORD':'00cc468dfbc57b9f5fdb84d80ed1b777c80775d7ec813fa83be18ee447b1c7aa',
-#         'HOST': 'ec2-3-211-228-251.compute-1.amazonaws.com',
-#         'PORT':'5432',
-#     }	
-# }
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'portfoliodb',
+        'USER':'postgres',
+        'PASSWORD': os.environ.get('SECRET_PASSWORD'),
+        'HOST': 'localhost',
+        'PORT':'5432',
+    }	
+}
 DATABASES = {
     'default': {
     'ENGINE': 'django.db.backends.sqlite3',
     'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
   }	
 }
+DATABASE_URL = os.environ.get('DATABASE_URL')
 
 
 # Password validation
@@ -133,10 +136,15 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
-#STATIC_ROOT = os.path.join(BASE_DIR, 'static')
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
-STATIC_ROOT = (BASE_DIR, 'staticfilies')
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+# STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+# STATIC_ROOT = (BASE_DIR, 'staticfilies')
 
 
 MEDIA_ROOT = BASE_DIR
 MEDIA_URL = '/media/'
+
+# Activate Django-Heroku.
+django_heroku.settings(locals())
+DATABASES['default'] = dj_database_url.config(
+    conn_max_age=600, ssl_require=True)
