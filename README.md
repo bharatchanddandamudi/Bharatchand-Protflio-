@@ -23,7 +23,8 @@
 
 ## About This Project
 
-[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/47AeB7AHozE)
+ [![Watch the video](https://img.youtube.com/vi/T-D1KVIuvjA/maxresdefault.jpg)](https://youtu.be/47AeB7AHozE)
+
 
 
 <!-- DESCRIPTION -->
