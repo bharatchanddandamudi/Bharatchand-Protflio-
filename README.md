@@ -22,9 +22,9 @@
 
 ## About This Project
 
-  [mq3](https://user-images.githubusercontent.com/17007063/146685170-04b2c321-2065-444e-a4dc-f818b54770d4.jpg)
+  ![mq3](https://user-images.githubusercontent.com/17007063/146685170-04b2c321-2065-444e-a4dc-f818b54770d4.jpg)
  
- <iframe width="734" height="413" src="https://www.youtube.com/embed/47AeB7AHozE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  [watch the Video](https://www.youtube.com/embed/47AeB7AHozE)
  
  <!-- DESCRIPTION -->
 
