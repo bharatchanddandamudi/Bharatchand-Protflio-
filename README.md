@@ -23,11 +23,7 @@
 ## About This Project
 <br />
 
-  ![mq3](https://user-images.githubusercontent.com/17007063/146685170-04b2c321-2065-444e-a4dc-f818b54770d4.jpg)
- 
- 
- <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-         
+           
 
  [![watch the video ](https://img.youtube.com/vi/47AeB7AHozE0/maxresdefault.jpg)](https://youtu.be/47AeB7AHozE0)
 
