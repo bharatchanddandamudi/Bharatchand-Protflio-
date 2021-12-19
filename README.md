@@ -42,7 +42,7 @@ In this project I will be showing my step by step process for building a Django 
 
 - Setting up URLs in Django project
 - Creating models in Django
-- Connecting Django project to Postgres
+- Connecting Django project to Postgres or sqllite 
 - Adding static images
 - Designing the layout for website
 - Creating object views
