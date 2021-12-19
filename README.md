@@ -15,9 +15,7 @@
   <ol>
     <li><a href="#about-this-project">About This Project</a></li>
     <li><a href="#getting-started">Getting Started</a></li>
-    <li><a href="#development">Development</a></li>
-    <li><a href="#deployment">Deployment</a></li>
-    <li><a href="acknowledgements">Acknowledgements</a></li>
+    
   </ol>
 </details>
 
@@ -25,6 +23,7 @@
 
 ## About This Project
 
+[![Product Name Screen Shot][website-screenshot]][website-url]
 
 <!-- DESCRIPTION -->
 
@@ -52,7 +51,6 @@ Here are some instructions on how to get this project up and running. First you 
 
 - **[Python](https://www.python.org/downloads/)** 3.9.1
 - **[Pip](https://pip.pypa.io/en/stable/installing/)** 21.0.1
-- **[Anaconda](https://www.anaconda.com/products/individual)**
 
 ### Here is how we install them:
 
@@ -71,15 +69,26 @@ Here are some instructions on how to get this project up and running. First you 
 
 ### Installations:
 
-1. Create a directory for the project, then download or clone project the project into the directory by simply run the following command in your terminal
+1. Create a directory for the project creating  run the following command in your terminal
 
    ```sh
    mkdir project
    cd project
-   git clone https://github.com/TobiAdeniyi/django-portfolio-website
+    $ python -m django --version
+    $ django-admin startproject portfolio
+    $ python manage.py startapp job  
    ```
+2. Runing commands  
 
-2. Install and activate the virtual environment, using `pip` as so
+   ```sh 
+     $ python manage.py runserver
+     $ python manage.py runserver 8080
+     $ pythin manage.py makemigrations 
+     $ pythin manage.py migrate 
+     $ pythin manage.py show migrations  
+   ```       
+
+3. Install and activate the virtual environment, using `pip` as so
 
    ```sh
    python -m venv portfolio_website_environment
@@ -87,23 +96,3 @@ Here are some instructions on how to get this project up and running. First you 
    python -m pip install requirements.txt
    pip list
    ```
-
-   Or alternatively, if you have **Anaconda** installed, create and activate a virtual environment, using `conda`, by running the following command
-
-   ```sh
-   conda env create -f environment.yml
-   conda activate portfolio_website_environment
-   conda env list
-   ```
-
-3. **TODO**
-
-
-## Acknowledgements
-
-- [Best README Temlate](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-- [LinkedIn Learn](https://www.linkedin.com/learning/building-a-personal-portfolio-with-django/starting-a-new-project-in-django?contextUrn=urn%3Ali%3AlyndaLearningPath%3A5d546c44498e876bef6651ba)
-- [EMOJI CHEAT SHEET](https://www.webfx.com/tools/emoji-cheat-sheet/)
-- [Bootstrap v5.0](https://getbootstrap.com/docs/5.0/getting-started/download/)
-- [jQuery v3.6.0](https://jquery.com/download/)
-- [Popper v2.x](https://popper.js.org/docs/v2/)
