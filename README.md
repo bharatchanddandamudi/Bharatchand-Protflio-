@@ -15,7 +15,6 @@
   <ol>
     <li><a href="#about-this-project">About This Project</a></li>
     <li><a href="#getting-started">Getting Started</a></li>
-    
   </ol>
 </details>
 
@@ -23,15 +22,11 @@
 
 ## About This Project
 
-  [!home page ]![mq3](https://user-images.githubusercontent.com/17007063/146685170-04b2c321-2065-444e-a4dc-f818b54770d4.jpg)
+  [mq3](https://user-images.githubusercontent.com/17007063/146685170-04b2c321-2065-444e-a4dc-f818b54770d4.jpg)
  
+ <iframe width="734" height="413" src="https://www.youtube.com/embed/47AeB7AHozE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
  
- 
- [![Watch the video](https://youtu.be/47AeB7AHozE)
-
-
-
-<!-- DESCRIPTION -->
+ <!-- DESCRIPTION -->
 
 ### Description:
 
