@@ -5,12 +5,10 @@
 
 Django Portfolio Website
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Table of Contents
-About This Project
-Getting Started
-Development
-Deployment
-Acknowledgements
+1.Table of Contents
+2.About This Project
+3.Getting Started
+4.Acknowledgements
 
 About This Project
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -45,8 +43,8 @@ Updating URL paths
 Getting Started
 Here are some instructions on how to get this project up and running. First you will need some some prerequsites to manage a local virtual environment. Bellow is a list of 'Bare Minimums' you need to follow along with this project.
 
-Python 3.9.1
-Pip 21.0.1
+1.Python 3.9.1
+2.Pip 21.0.1
 Anaconda
 Here is how we install them:
 Check if python and pip are installed
