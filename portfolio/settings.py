@@ -144,5 +144,11 @@ STATIC_ROOT = (BASE_DIR, 'staticfilies')
 MEDIA_ROOT = BASE_DIR
 MEDIA_URL = '/media/'
 
+try:
+    from local_settings import *
+except ImportError:
+    pass
+
+
 # Activate Django-Heroku.
 django_heroku.settings(locals())
