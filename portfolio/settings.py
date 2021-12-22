@@ -96,7 +96,7 @@ DATABASES = {
 #     'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
 #   }	
 # }
-# DATABASE_URL = os.environ.get('DATABASE_URL')
+DATABASE_URL = os.environ.get('DATABASE_URL')
 
 
 # Password validation
